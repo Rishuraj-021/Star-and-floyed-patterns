@@ -1,0 +1,149 @@
+Code 1.
+#include<iostream>
+using namespace std;
+int main(){
+    int i,j;
+    for(int i=1;i<=2;i++){
+        cout<<"outer"<<i<<endl;
+        for(int j=1;j<=3;j++){
+            cout<<"inner"<<j<<endl;
+        }
+    }
+    return 0;
+}
+
+
+Code 2.
+#include <iostream>
+using namespace std;
+
+int main() {
+   int i,j;
+   int n=5;
+   for(i=1;i<=n;i++){
+       cout<<endl;
+       for(j=1;j<=i;j++){
+           cout<<"*";
+           
+           
+       }
+   }
+
+    return 0;
+}
+
+
+
+Code 3.
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i,j,k;
+    int n=5;
+    for(i=1;i<=n;i++){
+       
+        for(j=i;j<n;j++){
+            cout<<"  ";
+       
+           
+       
+        }
+        for(k=1;k<=i;k++){
+         cout<<" *";
+         
+        }
+        cout<<endl;
+        }
+         return 0;
+
+    }
+
+
+
+
+code 4.
+#include<iostream>
+using namespace std;
+int main()
+{
+    char k='a';
+    int n;
+    
+    cout<<"Enter the number:"<<endl;
+    cin>>n;
+    for(int i=1;i<n;i++)
+    {
+       for(int j=1;j<=i;j++)
+       {
+           cout<<k<<" " ;
+           k++;
+       }
+       cout<<endl;
+    }   
+}
+
+
+
+Code 5.
+#include<iostream>
+using namespace std;
+int main()
+{
+    int k=1;
+    int n;
+    
+    cout<<"Enter the number:"<<endl;
+    cin>>n;
+    for(int i=1;i<n;i++)
+    {
+       for(int j=1;j<=i;j++)
+       {
+           cout<<k<<" " ;
+           k++;
+       }
+       cout<<endl;
+    }   
+}
+
+
+Code 6.
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter the number of stars:"<<endl;
+    cin>>n;
+    for(int i=1;i<=n;i++)
+    {
+        for(int k=n;k<n+i;k++)
+        {
+            cout<<" ";
+        }    
+        
+        for(int j=n-i+1;j>0;j--)
+       {
+           cout<<" *";
+       }
+        
+       cout<<endl;
+        
+    }  
+    for(int i=1;i<=n;i++)
+    {
+        for(int k=1;k<n+2-i;k++)
+        {
+            cout<<" ";
+        }    
+        
+        for(int j=1;j<=i;j++)
+       {
+           cout<<" *";
+       }
+        
+       cout<<endl;
+        
+    }   
+}
+ 
